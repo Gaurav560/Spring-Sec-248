@@ -22,6 +22,8 @@ public class StudentController {
         return students;
     }
 
+
+    //adding a student
     @PostMapping("/students")
     public void addStudent(Student student) {
         students.add(student);
